@@ -39,8 +39,29 @@
       var(--moderate-violet);
   }
 }
-@media(hover: hover) and (pointer: fine) {
-  .container .section:hover{
+@media (hover: hover) {
+  .container .section {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0.8rem;
+    box-shadow: 2px 4px 4px var(--light-gray);
+    padding: 2rem 3rem 1.2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .container .section:hover {
     box-shadow: 5px 8px 10px var(--very-dark-grayish-blue);
+  }
+}
+@media (hover: none) {
+  .container .section {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0.8rem;
+    box-shadow: 2px 4px 4px var(--light-gray);
+    padding: 2rem 3rem 1.2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .container .section:hover {
+    box-shadow: 2px 4px 4px var(--light-gray);
   }
 }
