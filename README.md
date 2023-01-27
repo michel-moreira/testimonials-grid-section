@@ -58,6 +58,37 @@ Users should be able to:
 
 - Working with external fonts (Google fonts) to improve a better custom apparence.
 
+- Adapt interactive elements on device mobile with pseudo class ```:hover``` and media queries
+
+```CSS
+@media (hover: hover) {
+  .container .section {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0.8rem;
+    box-shadow: 2px 4px 4px var(--light-gray);
+    padding: 2rem 3rem 1.2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .container .section:hover {
+    box-shadow: 5px 8px 10px var(--very-dark-grayish-blue);
+  }
+}
+@media (hover: none) {
+  .container .section {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0.8rem;
+    box-shadow: 2px 4px 4px var(--light-gray);
+    padding: 2rem 3rem 1.2rem;
+    transition: 0.3s ease-in-out;
+  }
+  .container .section:hover {
+    box-shadow: 2px 4px 4px var(--light-gray);
+  }
+}
+```
+
 - Working with separated documents, improving organization and responsability to every document with its function in the whole project.
 
 ```html
