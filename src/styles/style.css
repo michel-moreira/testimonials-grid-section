@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-grayish-blue);
+  font-size: 1.3rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "first first second fifth"
+    "third fourth fourth fifth";
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.2rem 3rem;
+  max-width: 1110px;
+}
+
+/* ================================== */
+.container .section {
+  border-radius: 0.8rem;
+  box-shadow: 5px 8px 10px var(--light-gray);
+  padding: 2rem 3rem 1.2rem;
+}
+
+/* ................................ */
+.container .section .perfil-info {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-bottom: 1rem;
+}
+.container .section .perfil-info .image {
+  width: 32px;
+  border-radius: 50%;
+}
+.container .section.first-testemonie .perfil-info .image,
+.container .section.fourth-testemonie .perfil-info .image {
+  border: 1px solid hsl(228, 80%, 77%);
+}
+/* ................................ */
+.container .section .perfil-info .perfil .name,
+.container .section .main-text {
+  font-weight: 600;
+  color: #000000;
+}
+.container .section .perfil-info .perfil .graduated {
+  color: #000000;
+  opacity: 0.5;
+}
+.container .section .coment {
+  color: #000000;
+  opacity: 0.7;
+}
+
+.container .section .main-text {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: 1.6rem;
+}
+.container .section .coment {
+  line-height: 1.4;
+  margin-bottom: 2.6rem;
+}
+/* ================================== */
+.container .section.first-testemonie {
+  grid-area: first;
+  position: relative;
+  background: url(../images/bg-pattern-quotation.svg) no-repeat top right 8.6rem
+    var(--moderate-violet);
+}
+
+.container .section.first-testemonie .perfil-info .perfil .name,
+.container .section.first-testemonie .perfil-info .perfil .graduated,
+.container .section.first-testemonie .main-text,
+.container .section.first-testemonie .coment {
+  color: var(--white);
+}
+/* ================================== */
+
+.container .section.second-testemonie {
+  grid-area: second;
+  background-color: var(--very-dark-grayish-blue);
+}
+
+/* .................................. */
+.container .section.second-testemonie .perfil-info .perfil .name,
+.container .section.second-testemonie .perfil-info .perfil .graduated,
+.container .section.second-testemonie .main-text,
+.container .section.second-testemonie .coment {
+  color: var(--white);
+}
+/* ================================== */
+
+.container .section.third-testemonie {
+  grid-area: third;
+  background-color: var(--white);
+}
+/* ================================== */
+
+.container .section.fourth-testemonie {
+  grid-area: fourth;
+  background-color: var(--very-dark-blackish-blue);
+}
+
+/* .................................. */
+.container .section.fourth-testemonie .perfil-info .perfil .name,
+.container .section.fourth-testemonie .perfil-info .perfil .graduated,
+.container .section.fourth-testemonie .main-text,
+.container .section.fourth-testemonie .coment {
+  color: var(--white);
+}
+/* ================================== */
+
+.container .section.fifth-testemonie {
+  grid-area: fifth;
+  background-color: var(--white);
+}
+
+/* ############################ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

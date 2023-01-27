@@ -1,0 +1,42 @@
+@media (max-width: 1000px) {
+  main {
+    margin: 1rem;
+    padding: 1.5rem;
+    min-height: 100vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+  }
+
+  /* .............................. */
+  .container .section {
+    border-radius: 0.8rem;
+    box-shadow: 5px 8px 10px var(--light-gray);
+    gap: 2rem;
+    padding: 2rem 3.2rem 0.2rem;
+  }
+
+  /* .............................. */
+  .container .section .perfil-info {
+    margin-bottom: 0.8rem;
+  }
+
+  /* .............................. */
+  .container .section .main-text {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+  }
+  /* .............................. */
+  .container .section .coment {
+    line-height: 1.5;
+    margin-bottom: 2.6rem;
+  }
+
+  /* .............................. */
+  .container .section.first-testemonie {
+    background: url(../images/bg-pattern-quotation.svg) no-repeat top right 2rem
+      var(--moderate-violet);
+  }
+}
