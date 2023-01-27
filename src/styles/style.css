@@ -31,8 +31,12 @@ main {
   display: flex;
   flex-direction: column-reverse;
   border-radius: 0.8rem;
-  box-shadow: 5px 8px 10px var(--light-gray);
+  box-shadow: 2px 4px 4px var(--light-gray);
   padding: 2rem 3rem 1.2rem;
+  transition: 0.3s ease-in-out;
+}
+.container .section:hover{
+  box-shadow: 5px 8px 10px var(--very-dark-grayish-blue);
 }
 
 /* ................................ */

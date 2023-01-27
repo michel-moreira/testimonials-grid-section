@@ -11,6 +11,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -79,6 +80,11 @@ Users should be able to:
   --light-grayish-blue: hsl(210, 46%, 95%);
 }
 ```
+
+### Useful resources
+
+- [Figure tag](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/#aa-hey-what-about-the-figure-element) - This helped me for understand how quotation works and its importance to accessibility. I really liked this knowledge and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
