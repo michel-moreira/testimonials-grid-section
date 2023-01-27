@@ -58,7 +58,7 @@ Users should be able to:
 
 - Working with external fonts (Google fonts) to improve a better custom apparence.
 
-- Adapt interactive elements on device mobile with pseudo class ```:hover``` and media queries
+- Adapt interactive elements on device mobile with pseudo class ```:hover``` and media queries. To any further research:
 
 ```CSS
 @media (hover: hover) {
