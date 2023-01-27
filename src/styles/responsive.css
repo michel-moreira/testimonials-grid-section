@@ -39,7 +39,7 @@
       var(--moderate-violet);
   }
 }
-@media (hover: hover){
+@media(hover: hover) and (pointer: fine) {
   .container .section:hover{
     box-shadow: 5px 8px 10px var(--very-dark-grayish-blue);
   }
