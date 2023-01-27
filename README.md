@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution: [Frontend Mentor solution by Michel Moreira]()
-- Live Site: [Github pages]()
+- Solution: [Frontend Mentor solution by Michel Moreira](https://www.frontendmentor.io/solutions/responsive-section-testemonials-grid-semantic-html5-grid-flexbox-t51__rpk1X)
+- Live Site: [Github pages](https://michel-moreira.github.io/testimonials-grid-section/)
 
 ## My process
 
