@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: var(--light-grayish-blue);
   font-size: 1.3rem;
@@ -27,6 +28,8 @@ main {
 
 /* ================================== */
 .container .section {
+  display: flex;
+  flex-direction: column-reverse;
   border-radius: 0.8rem;
   box-shadow: 5px 8px 10px var(--light-gray);
   padding: 2rem 3rem 1.2rem;
@@ -43,8 +46,8 @@ main {
   width: 32px;
   border-radius: 50%;
 }
-.container .section.first-testemonie .perfil-info .image,
-.container .section.fourth-testemonie .perfil-info .image {
+.container .section.first-testemony .perfil-info .image,
+.container .section.fourth-testemony .perfil-info .image {
   border: 1px solid hsl(228, 80%, 77%);
 }
 /* ................................ */
@@ -72,56 +75,56 @@ main {
   margin-bottom: 2.6rem;
 }
 /* ================================== */
-.container .section.first-testemonie {
+.container .section.first-testemony {
   grid-area: first;
   position: relative;
   background: url(../images/bg-pattern-quotation.svg) no-repeat top right 8.6rem
     var(--moderate-violet);
 }
 
-.container .section.first-testemonie .perfil-info .perfil .name,
-.container .section.first-testemonie .perfil-info .perfil .graduated,
-.container .section.first-testemonie .main-text,
-.container .section.first-testemonie .coment {
+.container .section.first-testemony .perfil-info .perfil .name,
+.container .section.first-testemony .perfil-info .perfil .graduated,
+.container .section.first-testemony .main-text,
+.container .section.first-testemony .coment {
   color: var(--white);
 }
 /* ================================== */
 
-.container .section.second-testemonie {
+.container .section.second-testemony {
   grid-area: second;
   background-color: var(--very-dark-grayish-blue);
 }
 
 /* .................................. */
-.container .section.second-testemonie .perfil-info .perfil .name,
-.container .section.second-testemonie .perfil-info .perfil .graduated,
-.container .section.second-testemonie .main-text,
-.container .section.second-testemonie .coment {
+.container .section.second-testemony .perfil-info .perfil .name,
+.container .section.second-testemony .perfil-info .perfil .graduated,
+.container .section.second-testemony .main-text,
+.container .section.second-testemony .coment {
   color: var(--white);
 }
 /* ================================== */
 
-.container .section.third-testemonie {
+.container .section.third-testemony {
   grid-area: third;
   background-color: var(--white);
 }
 /* ================================== */
 
-.container .section.fourth-testemonie {
+.container .section.fourth-testemony {
   grid-area: fourth;
   background-color: var(--very-dark-blackish-blue);
 }
 
 /* .................................. */
-.container .section.fourth-testemonie .perfil-info .perfil .name,
-.container .section.fourth-testemonie .perfil-info .perfil .graduated,
-.container .section.fourth-testemonie .main-text,
-.container .section.fourth-testemonie .coment {
+.container .section.fourth-testemony .perfil-info .perfil .name,
+.container .section.fourth-testemony .perfil-info .perfil .graduated,
+.container .section.fourth-testemony .main-text,
+.container .section.fourth-testemony .coment {
   color: var(--white);
 }
 /* ================================== */
 
-.container .section.fifth-testemonie {
+.container .section.fifth-testemony {
   grid-area: fifth;
   background-color: var(--white);
 }
