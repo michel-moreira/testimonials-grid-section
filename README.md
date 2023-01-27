@@ -84,7 +84,7 @@ Users should be able to:
 ### Useful resources
 
 - [Figure tag](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/#aa-hey-what-about-the-figure-element) - This helped me for understand how quotation works and its importance to accessibility. I really liked this knowledge and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Some interactive effects](https://css-tricks.com/css-link-hover-effects/) - This is an amazing article which helped me to expand pseudo class compreension. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
