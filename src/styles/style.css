@@ -58,14 +58,14 @@ main {
 .container .section .perfil-info .perfil .name,
 .container .section .main-text {
   font-weight: 600;
-  color: #000000;
+  color: var( --very-dark-grayish-blue);
 }
 .container .section .perfil-info .perfil .graduated {
-  color: #000000;
+  color: var( --very-dark-grayish-blue);
   opacity: 0.5;
 }
 .container .section .coment {
-  color: #000000;
+  color: var( --very-dark-grayish-blue);
   opacity: 0.7;
 }
 
